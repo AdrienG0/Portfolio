@@ -26,6 +26,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 header .logo {
@@ -45,13 +46,6 @@ header .logo h1 {
 header .user-info {
     display: flex;
     align-items: center;
-}
-
-header .user-info img {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    margin-left: 0.5rem;
 }
 
 /* Form styles */
@@ -127,3 +121,6 @@ footer p {
     font-size: 1rem;
     color: white;
 }
+
+
+
