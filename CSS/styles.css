@@ -18,15 +18,20 @@ header {
     background-color: #ff6347;
     color: white;
     padding: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header .logo {
     display: flex;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header .logo img {
@@ -35,7 +40,19 @@ header .logo img {
 }
 
 header .logo h1 {
-    font-size: 1.5rem;
+    font-size: 2rem; /* Verhoog de tekstgrootte van de titel */
+}
+
+header .user-info {
+    display: flex;
+    align-items: center;
+}
+
+header .user-info img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 0.5rem;
 }
 
 /* Form styles */
@@ -95,22 +112,19 @@ footer p {
     margin: 0;
 }
 
-
 .user-info {
     display: flex;
     align-items: center;
-    margin-left: auto;
 }
 
 .user-info .profile-pic {
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-left: 0.5rem;
 }
 
 .user-info #username {
     font-size: 1rem;
     color: white;
 }
-
