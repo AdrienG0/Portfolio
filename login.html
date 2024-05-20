@@ -3,36 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receptenboek</title>
+    <title>Receptenboek - Inloggen</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
         <div class="logo">
             <img src="assets/Logo_web.jpg" alt="Logo">
+            <h1>Receptenboek</h1>
         </div>
-        <h1>Receptenboek</h1>
     </header>
     <main>
-        <section class="register-section">
-            <h2>Registratie</h2>
-            <form action="register.php" method="POST">
-                <label for="name">Naam:</label>
-                <input type="text" id="name" name="name" required>
+        <section class="login-section">
+            <h2>Inloggen</h2>
+            <form action="login.php" method="POST">
                 <label for="email">E-mailadres:</label>
                 <input type="email" id="email" name="email" required>
                 <label for="password">Wachtwoord:</label>
                 <input type="password" id="password" name="password" required>
-                <label for="confirm-password">Bevestig wachtwoord:</label>
-                <input type="password" id="confirm-password" name="confirm-password" required>
-                <button type="submit">Registreer</button>
+                <button type="submit">Inloggen</button>
             </form>
         </section>
-    </main>
     </main>
     <footer>
         <p>&copy; 2024 Receptenboek. All rights reserved.</p>
     </footer>
-    <script src="js/app.js"></script>
 </body>
 </html>
