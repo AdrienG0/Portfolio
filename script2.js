@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const recipeForm = document.getElementById("recipeForm");
     const recipeList = document.getElementById("recipeList");
 
-    const recipes = JSON.parse(localStorage.getItem("recipes")) || [];
+    let recipes = JSON.parse(localStorage.getItem("recipes")) || [];
 
-    recipes.forEach(recipe => addRecipeToDOM(recipe));
+    recipes.forEach((recipe, index) => addRecipeToDOM(recipe, index));
 
     recipeForm.addEventListener("submit", (e) => {
         e.preventDefault();
@@ -25,17 +25,34 @@ document.addEventListener("DOMContentLoaded", () => {
         recipes.push(newRecipe);
         localStorage.setItem("recipes", JSON.stringify(recipes));
         
-        addRecipeToDOM(newRecipe);
+        addRecipeToDOM(newRecipe, recipes.length - 1);
         recipeForm.reset();
     });
 
-    function addRecipeToDOM({ name, ingredients, instructions }) {
+    function addRecipeToDOM(recipe, index) {
         const li = document.createElement("li");
         li.innerHTML = `
-            <h3>${name}</h3>
-            <p><strong>Ingrediënten:</strong> ${ingredients}</p>
-            <p><strong>Instructies:</strong> ${instructions}</p>
+            <div class="recipe-content">
+                <h3>${recipe.name}</h3>
+                <p><strong>Ingrediënten:</strong> ${recipe.ingredients}</p>
+                <p><strong>Instructies:</strong> ${recipe.instructions}</p>
+            </div>
+            <div class="delete-btn">
+                <img src="assets/bin.jpg" alt="Verwijder">
+            </div>
         `;
+
+        li.querySelector('.delete-btn').addEventListener('click', () => {
+            deleteRecipe(index);
+        });
+
         recipeList.appendChild(li);
+    }
+
+    function deleteRecipe(index) {
+        recipes.splice(index, 1);
+        localStorage.setItem("recipes", JSON.stringify(recipes));
+        recipeList.innerHTML = '';
+        recipes.forEach((recipe, index) => addRecipeToDOM(recipe, index));
     }
 });
