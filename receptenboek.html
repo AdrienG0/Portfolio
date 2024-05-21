@@ -20,7 +20,22 @@
         </div>
     </header>
     <main>
-        
+        <section class="add-recipe-section">
+            <h2>Nieuw Recept Toevoegen</h2>
+            <form id="recipeForm">
+                <label for="recipeName">Receptnaam:</label>
+                <input type="text" id="recipeName" name="recipeName" required>
+                <label for="recipeIngredients">Ingrediënten:</label>
+                <input type="text" id="recipeIngredients" name="recipeIngredients" required>
+                <label for="recipeInstructions">Instructies:</label>
+                <textarea id="recipeInstructions" name="recipeInstructions" required></textarea>
+                <button type="submit">Toevoegen</button>
+            </form>
+        </section>
+        <section class="recipe-list-section">
+            <h2>Receptenlijst</h2>
+            <ul id="recipeList"></ul>
+        </section>
     </main>
     
     <footer>
