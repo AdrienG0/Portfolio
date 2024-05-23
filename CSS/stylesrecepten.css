@@ -163,3 +163,19 @@ footer p {
     font-size: 1rem;
     color: white;
 }
+
+/* CSS voor de fade-in-animatie */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Voeg de animatieklasse toe aan het formulier */
+  .form-submit-animation {
+    animation: fadeIn 0.5s ease;
+  }
+  

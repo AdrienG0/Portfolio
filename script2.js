@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
         
         addRecipeToDOM(newRecipe, recipes.length - 1);
         recipeForm.reset();
+        recipeForm.classList.add("form-submit-animation"); // Voeg de animatieklasse toe
     });
 
     function addRecipeToDOM({ name, ingredients, instructions }, index) {
@@ -53,5 +54,3 @@ document.addEventListener("DOMContentLoaded", () => {
         recipes.forEach((recipe, index) => addRecipeToDOM(recipe, index));
     }
 });
-
-
