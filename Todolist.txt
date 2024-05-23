@@ -9,8 +9,7 @@ Async & Await
 Self executing function
 Fetch om data op te halen
 
-hamburgermenu?
-kleur van tekst in forms veranderen
+
 
 
 2. Receptenboek Webapplicatie
