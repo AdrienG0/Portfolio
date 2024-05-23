@@ -8,7 +8,6 @@ Consumer methods
 Async & Await
 Self executing function
 Fetch om data op te halen
-Basis CSS Animatie
 
 hamburgermenu?
 kleur van tekst in forms veranderen

@@ -25,6 +25,11 @@ document.addEventListener("DOMContentLoaded", () => {
         addRecipeToDOM(newRecipe, recipes.length - 1);
         recipeForm.reset();
         recipeForm.classList.add("form-submit-animation"); // Voeg de animatieklasse toe
+
+        // Wacht tot de animatie is voltooid en verwijder vervolgens de klasse
+        setTimeout(() => {
+          recipeForm.classList.remove("form-submit-animation");
+        }, 500);
     });
 
     function addRecipeToDOM({ name, ingredients, instructions }, index) {
