@@ -1,6 +1,6 @@
 
 
-Destructuring
+
 Spread & Rest operator
 Callback function
 Promise
