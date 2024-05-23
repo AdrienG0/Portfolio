@@ -53,3 +53,5 @@ document.addEventListener("DOMContentLoaded", () => {
         recipes.forEach((recipe, index) => addRecipeToDOM(recipe, index));
     }
 });
+
+
