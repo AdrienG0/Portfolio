@@ -1,13 +1,8 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", () => {
     const hamburgerIcon = document.getElementById("hamburgerIcon");
-    const popup = document.getElementById("popup");
-    const closeBtn = document.getElementById("closeBtn");
+    const menu = document.getElementById("menu");
 
-    hamburgerIcon.addEventListener("click", function() {
-        popup.style.display = "block";
-    });
-
-    closeBtn.addEventListener("click", function() {
-        popup.style.display = "none";
+    hamburgerIcon.addEventListener("click", () => {
+        menu.classList.toggle("show");
     });
 });
