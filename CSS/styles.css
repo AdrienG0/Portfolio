@@ -16,7 +16,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: rgba(255, 99, 71, 0.9); /* Semi-transparant om achtergrond te zien */
+    background-color: rgba(255, 99, 71, 0.9); 
     color: white;
     padding: 1rem;
     width: 100%;
@@ -40,7 +40,7 @@ header .logo img {
 }
 
 header .logo h1 {
-    font-size: 2rem; /* Verhoog de tekstgrootte van de titel */
+    font-size: 2rem; 
 }
 
 header .user-info {
@@ -74,17 +74,27 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="password"],
+textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333; 
+    background-color: #fff; 
+}
+
+input::placeholder {
+    color: #999; 
+}
+
 button {
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    color: white;
-}
-
-button {
     cursor: pointer;
-    background-color: #333; /* Aanpassing knopkleur */
+    background-color: #333; 
+    color: white; 
 }
 
 button:hover {
