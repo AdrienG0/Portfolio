@@ -20,13 +20,13 @@ header {
     color: white;
     padding: 1rem;
     width: 100%;
+    margin-right: 20px; /* Voeg rechtermarge toe */
 }
 
 .header-content {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    justify-content: space-between; /* Plaats elementen gelijkmatig over de beschikbare ruimte */
+    align-items: center; /* Centreer verticaal */
 }
 
 header .logo {
@@ -52,7 +52,7 @@ header .user-info img {
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    margin-left: 0.5rem;
+    margin-right: auto;
 }
 
 /* Section styles */
@@ -149,6 +149,7 @@ footer p {
 .user-info {
     display: flex;
     align-items: center;
+    margin-left: auto; /* Duw naar rechts */
 }
 
 .user-info .profile-pic {
