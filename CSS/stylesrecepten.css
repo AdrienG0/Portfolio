@@ -16,17 +16,17 @@ body {
 
 /* Header styles */
 header {
-    background-color: rgba(255, 99, 71, 0.9); /* Semi-transparant om achtergrond te zien */
+    background-color: rgba(255, 99, 71, 0.9); 
     color: white;
     padding: 1rem;
     width: 100%;
-    margin-right: 20px; /* Voeg rechtermarge toe */
+    margin-right: 20px; 
 }
 
 .header-content {
     display: flex;
-    justify-content: space-between; /* Plaats elementen gelijkmatig over de beschikbare ruimte */
-    align-items: center; /* Centreer verticaal */
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 header .logo {
@@ -40,7 +40,7 @@ header .logo img {
 }
 
 header .logo h1 {
-    font-size: 2rem; /* Verhoog de tekstgrootte van de titel */
+    font-size: 2rem; 
 }
 
 header .user-info {
@@ -149,7 +149,7 @@ footer p {
 .user-info {
     display: flex;
     align-items: center;
-    margin-left: auto; /* Duw naar rechts */
+    margin-left: auto; 
 }
 
 .user-info .profile-pic {
