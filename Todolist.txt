@@ -2,8 +2,6 @@
 
 
 Spread & Rest operator
-Callback function
-Promise
 Consumer methods
 Async & Await
 Self executing function
