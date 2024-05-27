@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         deleteButton.addEventListener('click', () => {
             todoItem.remove();
         });
-
+        
         todoItem.appendChild(completeButton);
         todoItem.appendChild(deleteButton);
         todoList.appendChild(todoItem);
