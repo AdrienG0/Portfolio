@@ -9,23 +9,4 @@ Fetch om data op te halen
 
 
 
-
-2. Receptenboek Webapplicatie
-Een webapplicatie waar gebruikers recepten kunnen toevoegen, bewerken, verwijderen en bekijken.
-
-Functionaliteiten:
-
-Elementen selecteren en manipuleren: Dynamisch toevoegen en bewerken van recepten in de DOM.
-Event aan een element koppelen: Koppel events aan knoppen voor het toevoegen, bewerken en verwijderen van recepten.
-Formulier valideren: Valideer invoer voor het toevoegen van nieuwe recepten.
-Gebruik van een constante: Definieer constante waarden voor bijvoorbeeld de maximale aantal ingrediënten per recept.
-Gebruik van template literals: Gebruik template literals om recepten dynamisch weer te geven.
-Destructuring en Spread & Rest operator: Gebruik destructuring om receptgegevens te extraheren en spread/rest operators voor het verwerken van arrays van ingrediënten.
-Iteratie over een array: Itereer over arrays van ingrediënten en recepten.
-Arrow function, Callback function, Promise, Async & Await: Gebruik moderne JavaScript-functies en asynchrone technieken voor servercommunicatie.
-Self executing function: Gebruik een IIFE voor initiële instellingen en setup.
-Fetch om data op te halen: Haal recepten op van een server of een externe API.
-JSON manipuleren en weergeven: Gebruik JSON om receptgegevens op te slaan en weer te geven.
-Basis CSS Animatie: Voeg animaties toe voor visuele feedback bij acties zoals het toevoegen of verwijderen van recepten.
-Gebruik van flexbox of CSS grid: Gebruik CSS Grid of Flexbox voor de layout van het receptenoverzicht.
-Gebruik van LocalStorage: Sla recepten op in LocalStorage om ze te behouden bij het herladen van de pagina.
+API-sleutel: cf5e9945cf6644979d308c9a45f16d3e
