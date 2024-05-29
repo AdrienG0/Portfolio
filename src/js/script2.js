@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <p><strong>Instructies:</strong> ${instructions}</p>
             </div>
             <div class="delete-btn">
-                <img src="assets/bin.jpg" alt="Verwijder">
+                <img src="/src/assets/bin.jpg" alt="Verwijder">
             </div>
         `;
 
