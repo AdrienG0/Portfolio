@@ -163,5 +163,16 @@ Deze wabapplicatie biedt gebruikers de mogelijkheid om recepten op te slaan en e
     - api.html
 
 
+## Gebruik
+
+- Registreer of log in om uw naam of e-mail op te slaan in de LocalStorage.
+
+- Voeg recepten toe via het formulier en bekijk ook de lijst van opgeslagen recepten.
+
+- Gebruik de todo-lijst om taken toe te voegen en deze als 'done' te markeren of te verwijderen.
+
+- Gebruikt het hamburgermenu voor navigatie doorheen de wepapplicatie.
+
 ## Doel project
+
 Het doel van dit project is om verschillende webontwikkelingstechnieken en -concepten te demonstreren.
