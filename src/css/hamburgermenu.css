@@ -1,9 +1,9 @@
 /* Hamburger menu styles */
-.hamburger-menu {
+.hamburgermenu {
     position: relative;
 }
 
-.hamburger-icon {
+.hamburgericon {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
