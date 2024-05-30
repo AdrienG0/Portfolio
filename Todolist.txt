@@ -3,8 +3,6 @@
 
 Spread & Rest operator
 Consumer methods
-Self executing function
-Fetch om data op te halen
 
 
 
