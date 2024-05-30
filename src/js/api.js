@@ -2,7 +2,7 @@
 
 (function() {
     document.addEventListener('DOMContentLoaded', () => {
-        const API_KEY = 'cf5e9945cf6644979d308c9a45f16d3e'; // Vervang dit door je echte API-sleutel
+        const API_KEY = 'cf5e9945cf6644979d308c9a45f16d3e'; //API-sleutel
         const recipesContainer = document.getElementById('recipe-list');
     
         async function fetchRecipes() {

@@ -40,12 +40,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 <p><strong>Ingrediënten:</strong> ${ingredients}</p>
                 <p><strong>Instructies:</strong> ${instructions}</p>
             </div>
-            <div class="delete-btn">
+            <div class="verwijder_btn">
                 <img src="/src/assets/bin.jpg" alt="Verwijder">
             </div>
         `;
 
-        li.querySelector('.delete-btn').addEventListener('click', () => {
+        li.querySelector('.verwijder_btn').addEventListener('click', () => {
             deleteRecipe(index);
         });
 

@@ -119,11 +119,11 @@
         flex-grow: 1;
     }
 
-    .recept-lijst-deel .delete-btn {
+    .recept-lijst-deel .verwijder_btn {
         cursor: pointer;
     }
 
-    .recept-lijst-deel .delete-btn img {
+    .recept-lijst-deel .verwijder_btn img {
         height: 30px; 
         width: 30px;  
     }
@@ -175,27 +175,10 @@
         animation: scaleIn 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     }
 
-    .recipe-list {
+    .recept-lijst {
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
-    }
-
-    .recipe-item {
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        padding: 15px;
-        width: calc(33% - 40px);
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-
-    .recipe-item img {
-        max-width: 100%;
-        border-radius: 5px;
-    }
-
-    .recipe-item h3 {
-        margin: 10px 0;
     }
 
     

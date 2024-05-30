@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const todoForm = document.getElementById('todo-form');
+    const todoForm = document.getElementById('todo-formulier');
     const todoInput = document.getElementById('todo-input');
-    const todoList = document.getElementById('todo-list');
+    const todoList = document.getElementById('todo-lijst');
 
     todoForm.addEventListener('submit', function(event) {
         event.preventDefault();
