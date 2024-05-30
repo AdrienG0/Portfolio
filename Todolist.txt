@@ -3,7 +3,6 @@
 
 Spread & Rest operator
 Consumer methods
-Async & Await
 Self executing function
 Fetch om data op te halen
 
