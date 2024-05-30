@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const todoForm = document.getElementById('todo-formulier');
+    const todoFormulier = document.getElementById('todo-formulier');
     const todoInput = document.getElementById('todo-input');
-    const todoList = document.getElementById('todo-lijst');
+    const todoLijst = document.getElementById('todo-lijst');
 
-    todoForm.addEventListener('submit', function(event) {
+    todoFormulier.addEventListener('submit', function(event) {
         event.preventDefault();
         addTodo(todoInput.value);
         todoInput.value = '';
@@ -19,14 +19,14 @@ document.addEventListener('DOMContentLoaded', () => {
             todoItem.classList.toggle('completed');
         });
 
-        const deleteButton = document.createElement('button');
-        deleteButton.textContent = 'Delete';
-        deleteButton.addEventListener('click', () => {
+        const verwijderButton = document.createElement('button');
+        verwijderButton.textContent = 'Delete';
+        verwijderButton.addEventListener('click', () => {
             todoItem.remove();
         });
         
         todoItem.appendChild(completeButton);
-        todoItem.appendChild(deleteButton);
-        todoList.appendChild(todoItem);
+        todoItem.appendChild(verwijderButton);
+        todoLijst.appendChild(todoItem);
     }
 });
