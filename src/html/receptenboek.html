@@ -10,17 +10,17 @@
 
 <body>
     <header>
-        <div class="header-content">
+        <div class="header-deel">
             <div class="logo">
                 <img src="/src/assets/Logo_web.jpg" alt="Logo">
                 <h1>Receptenboek</h1>
             </div>
-            <div class="user-info">
+            <div class="gebruiker-info">
                 <span id="username">Gebruikersnaam</span>
                 <img src="/src/assets/Profielfoto.jpg" alt="Profielfoto" class="profile-pic">
             </div>
-            <div class="hamburger-menu" id="hamburgerMenu">
-                <div class="hamburger-icon" id="hamburgerIcon">
+            <div class="hamburgermenu" id="hamburgerMenu">
+                <div class="hamburgericon" id="hamburgerIcon">
                     <div class="line"></div>
                     <div class="line"></div>
                     <div class="line"></div>
@@ -35,24 +35,24 @@
         </div>
     </header>
     <main>
-        <section class="add-recipe-section">
+        <section class="add-recept-deel">
             <h2>Nieuw Recept Toevoegen</h2>
-            <form id="recipeForm">
-                <label for="recipeName">Receptnaam:</label>
-                <input type="text" id="recipeName" name="recipeName" required>
-                <label for="recipeIngredients">Ingrediënten:</label>
-                <input type="text" id="recipeIngredients" name="recipeIngredients" required>
-                <label for="recipeInstructions">Instructies:</label>
-                <textarea id="recipeInstructions" name="recipeInstructions" required></textarea>
-                <button type="submit" id="addRecipeBtn">Toevoegen</button>
+            <form id="receptFormulier">
+                <label for="receptNaam">Receptnaam:</label>
+                <input type="text" id="receptNaam" name="receptNaam" required>
+                <label for="receptIngrediënten">Ingrediënten:</label>
+                <input type="text" id="receptIngrediënten" name="receptIngrediënten" required>
+                <label for="receptInstructies">Instructies:</label>
+                <textarea id="receptInstructies" name="receptInstructies" required></textarea>
+                <button type="submit" id="addReceptBtn">Toevoegen</button>
             </form>
         </section>
 
-        <div id="recipe-list" class="recipe-list"></div>
+        <div id="recept-lijst" class="recept-lijst"></div>
 
-        <section class="recipe-list-section">
+        <section class="recept-lijst-deel">
             <h2>Receptenlijst</h2>
-            <ul id="recipeList"></ul>
+            <ul id="receptlijst"></ul>
         </section>
     </main>
     <footer>

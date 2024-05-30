@@ -5,30 +5,30 @@ document.addEventListener("DOMContentLoaded", () => {
         usernameSpan.textContent = storedUsername;
     }
 
-    const recipeForm = document.getElementById("recipeForm");
-    const recipeList = document.getElementById("recipeList");
+    const receptFormulier = document.getElementById("receptFormulier");
+    const receptlijst = document.getElementById("receptlijst");
 
     let recipes = JSON.parse(localStorage.getItem("recipes")) || [];
 
     recipes.forEach((recipe, index) => addRecipeToDOM(recipe, index));
 
-    recipeForm.addEventListener("submit", (e) => {
+    receptFormulier.addEventListener("submit", (e) => {
         e.preventDefault();
         
-        const formData = new FormData(recipeForm);
-        const { recipeName, recipeIngredients, recipeInstructions } = Object.fromEntries(formData);
-        const newRecipe = { name: recipeName, ingredients: recipeIngredients, instructions: recipeInstructions };
+        const formData = new FormData(receptFormulier);
+        const { receptNaam, receptIngrediënten, receptInstructies } = Object.fromEntries(formData);
+        const newRecipe = { name: receptNaam, ingredients: receptIngrediënten, instructions: receptInstructies };
 
         recipes.push(newRecipe);
         localStorage.setItem("recipes", JSON.stringify(recipes));
         
         addRecipeToDOM(newRecipe, recipes.length - 1);
-        recipeForm.reset();
-        recipeForm.classList.add("form-submit-animation"); 
+        receptFormulier.reset();
+        receptFormulier.classList.add("form-submit-animation"); 
 
         
         setTimeout(() => {
-          recipeForm.classList.remove("form-submit-animation");
+            receptFormulier.classList.remove("form-submit-animation");
         }, 500);
     });
 
@@ -49,13 +49,13 @@ document.addEventListener("DOMContentLoaded", () => {
             deleteRecipe(index);
         });
 
-        recipeList.appendChild(li);
+        receptlijst.appendChild(li);
     }
 
     function deleteRecipe(index) {
         recipes.splice(index, 1);
         localStorage.setItem("recipes", JSON.stringify(recipes));
-        recipeList.innerHTML = '';
+        receptlijst.innerHTML = '';
         recipes.forEach((recipe, index) => addRecipeToDOM(recipe, index));
     }
 });
