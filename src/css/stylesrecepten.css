@@ -81,7 +81,7 @@
     button {
         padding: 10px;
         margin-bottom: 10px;
-        border: 1px solid #ccc;
+        border: 1px solid white;
         border-radius: 4px;
     }
 
@@ -91,12 +91,12 @@
 
     button {
         cursor: pointer;
-        background-color: #ff6347;
+        background-color: red;
         color: white;
     }
 
     button:hover {
-        background-color: #ff4500;
+        background-color: red;
     }
 
     .recept-lijst-deel ul {
@@ -108,7 +108,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: #fff;
+        background-color: white;
         margin-bottom: 10px;
         padding: 10px;
         border-radius: 4px;
@@ -130,7 +130,7 @@
 
 
     footer {
-        background-color: #333;
+        background-color: gray;
         color: white;
         text-align: center;
         padding: 1rem;

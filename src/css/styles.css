@@ -63,7 +63,7 @@ header .user-info #username {
 section {
     margin: 20px;
     padding: 20px;
-    background-color: #fff;
+    background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -88,32 +88,33 @@ input[type="password"],
 textarea {
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid white;
     border-radius: 4px;
-    color: #333; 
-    background-color: #fff; 
+    border-color: black;
+    color: gray; 
+    background-color: white; 
 }
 
 input::placeholder {
-    color: #999; 
+    color: gray; 
 }
 
 button {
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid white;
     border-radius: 4px;
     cursor: pointer;
-    background-color: #333; 
+    background-color: gray; 
     color: white; 
 }
 
 button:hover {
-    background-color: #555;
+    background-color: gray;
 }
 
 footer {
-    background-color: #333;
+    background-color: gray;
     color: white;
     text-align: center;
     padding: 1rem;
@@ -168,15 +169,16 @@ footer p {
     flex-grow: 1;
     margin-right: 15px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid white;
     border-radius: 5px;
     font-size: 1.2rem;
+    border-color: black;
 }
 
 #todo-formulier button {
     padding: 10px 20px;
     border: none;
-    background-color: #28a745;
+    background-color: green;
     color: white;
     border-radius: 5px;
     cursor: pointer;
@@ -184,7 +186,7 @@ footer p {
 }
 
 #todo-formulier button:hover {
-    background-color: #218838;
+    background-color: green;
 }
 
 #todo-lijst {
@@ -195,7 +197,7 @@ footer p {
 #todo-lijst li {
     display: flex;
     justify-content: space-between;
-    background-color: #f8f8f8;
+    background-color: white;
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 5px;
@@ -204,14 +206,14 @@ footer p {
 
 #todo-lijst li.completed {
     text-decoration: line-through;
-    color: #777;
+    color: gray;
 }
 
 #todo-lijst button {
     margin-left: 15px;
     padding: 10px;
     border: none;
-    background-color: #dc3545;
+    background-color: red;
     color: white;
     border-radius: 5px;
     cursor: pointer;
@@ -219,7 +221,7 @@ footer p {
 }
 
 #todo-lijst button:hover {
-    background-color: #c82333;
+    background-color: red;
 }
 
 #recipes {
