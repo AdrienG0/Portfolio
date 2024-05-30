@@ -1,8 +1,7 @@
 
 
 
-Spread & Rest operator
-Consumer methods
+
 
 
 
