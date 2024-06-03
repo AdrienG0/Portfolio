@@ -173,6 +173,14 @@ Deze wabapplicatie biedt gebruikers de mogelijkheid om recepten op te slaan en e
 
 - Gebruikt het hamburgermenu voor navigatie doorheen de wepapplicatie.
 
+## Bronnen
+
+- https://chatgpt.com/share/178a3b61-cd74-4679-8793-13ddc78ad70c
+- https://chatgpt.com/share/ba84de7e-81f7-42bf-b5f5-d3c6bf5366c2
+- https://chatgpt.com/share/e33d7c43-ee3d-495f-a4df-2ecf3af5ff84
+- https://spoonacular.com/food-api
+- https://chatgpt.com/share/4ab12b4a-4b81-49a1-b0a9-0c59e25280ba
+
 ## Doel project
 
 Het doel van dit project is om verschillende webontwikkelingstechnieken en -concepten te demonstreren.
