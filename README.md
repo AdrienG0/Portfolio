@@ -175,11 +175,13 @@ Deze wabapplicatie biedt gebruikers de mogelijkheid om recepten op te slaan en e
 
 ## Bronnen
 
-- https://chatgpt.com/share/178a3b61-cd74-4679-8793-13ddc78ad70c
-- https://chatgpt.com/share/ba84de7e-81f7-42bf-b5f5-d3c6bf5366c2
-- https://chatgpt.com/share/e33d7c43-ee3d-495f-a4df-2ecf3af5ff84
 - https://spoonacular.com/food-api
-- https://chatgpt.com/share/4ab12b4a-4b81-49a1-b0a9-0c59e25280ba
+- https://chatgpt.com/share/48656455-6880-49c5-a74c-176af8cf3d7f
+- https://chatgpt.com/share/c99b949b-857c-4ded-bd0f-a23802e46e96
+- https://appmaster.io/nl/blog/apis-voor-beginners-hoe-een-api-te-gebruiken-een-complete-gids
+- https://www.quora.com/How-can-I-integrate-API-KEY-TO-MY-HTML-website
+- https://chatgpt.com/share/67c6dda9-1cab-459e-8633-6a2721f71377
+
 
 ## Doel project
 
